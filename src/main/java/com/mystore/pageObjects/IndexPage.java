@@ -10,6 +10,7 @@ import com.mystore.base.BaseClass;
 
 public class IndexPage extends BaseClass {
 	//this is action class
+	//we use command methods through Action class
 	Action action= new Action();
 	
 	@FindBy(xpath = "//a[@class='login']") 
