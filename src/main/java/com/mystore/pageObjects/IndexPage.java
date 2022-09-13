@@ -9,7 +9,7 @@ import com.mystore.actionDriver.Action;
 import com.mystore.base.BaseClass;
 
 public class IndexPage extends BaseClass {
-	
+	//this is action class
 	Action action= new Action();
 	
 	@FindBy(xpath = "//a[@class='login']") 
